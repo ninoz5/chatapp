@@ -1,0 +1,41 @@
+.privacy{
+	background-color: #242121;
+	height: 6vh;
+	display: inline-block;
+	width: 100%;
+}
+.private,.public{
+	border: none;
+	width: 49%;
+	font-size:4vh;
+	display: inline-block;
+	border-left: none;
+	 transition: transform .2s;
+	background-color:transparent;
+	 color: #60b2ff;
+	 border-radius: 1px;
+	 border-color: grey;
+}
+.privacy:hover{
+	cursor: pointer;
+}
+.private{
+	margin-left: 1%;
+}
+.public:hover, .private:hover{
+	 transform: scale(1.02); 
+}
+.rooms{
+	width: 90%;
+	margin-left: 5%;
+	height: 88vh;
+	 overflow: auto;
+   overflow: overlay;
+}
+
+@media only screen and (max-width: 600px) {
+.public,.private{
+	font-size: 3vh;
+}
+
+}

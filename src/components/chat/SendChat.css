@@ -1,0 +1,14 @@
+.messageSend{
+  margin-left: 1%;
+  border-radius: 10px;
+   color: #60b2ff;
+  background-color: #242121;
+  font-size: 1.2rem;
+}
+.send{
+
+  background-color: #242121;
+  rder-radius: 10px;
+  width: 100%;
+  text-align: center;
+}

@@ -1,0 +1,70 @@
+fieldset{
+  border: none;
+}
+.UserAuth{
+    background-color: #242121;
+    height:100vh;
+    text-align: center;
+
+
+}
+.labels{
+   width:100%;
+   text-align: left;
+   float: left;
+}
+
+.container{
+  display: inline-block;
+  margin: 0 auto;
+}
+.userEnter{
+
+  border-radius: 10px;
+  color: white;
+  background-color:#3d3d3ef5;
+  font-size: 2.2rem;
+  padding: 10px;
+
+}
+
+.form{
+  margin: 8%;
+  display: block;
+  width: fit-content;
+}
+.userInput {
+    border-radius: 10px;
+    font-size: 2rem;
+    width: 100%;
+    
+}
+
+@media only screen and (max-width: 600px) {
+.userInput {
+    font-size: 1rem;
+}
+.userEnter{
+  font-size: 1.5rem;
+}
+}
+
+
+
+
+#small{
+  font-size: 1rem;
+}
+
+.ref{
+  background: none;
+ color: white;
+ border-radius: 10px;
+ padding: 10px;
+}
+.ref:hover{
+  color: #60b2ff;;
+}
+#submit:hover{
+  color: yellow;
+}

@@ -1,0 +1,42 @@
+.settings{
+height: auto;
+}
+img{
+	display: block;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  height: -webkit-fill-available;
+
+}
+.allbutimg{
+
+	height: 34vh;
+ 
+}
+.img{
+	height: 60vh;
+}
+.settingsButtons{
+	width:99.5%;
+	margin-left: 0.25%;
+	height: 20%;
+	
+  border-radius: 10px;
+   color: #60b2ff;
+  background-color: #242121;
+  font-size: 2rem;
+}
+.settingsButtons:hover{
+	color: yellow;
+}
+
+
+#logout:hover{
+	color: red;
+}
+@media only screen and (max-width:500px) {
+  .settingsButtons{
+	font-size: 1.5rem;
+}
+}

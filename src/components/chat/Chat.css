@@ -1,0 +1,22 @@
+.input{
+  width: 80%;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  
+}
+.chat{
+  word-wrap: break-word;
+  
+ 
+}
+.chatarea{
+  height: 90vh;
+  overflow: auto;
+   overflow: overlay;
+   width: 100%;
+}
+
+.send{
+  height: 4vh;
+
+}

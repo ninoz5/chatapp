@@ -1,0 +1,44 @@
+.theirname{
+	background: none;
+	border: none;
+	padding: none;
+    font-size: 0.95rem;
+}
+
+.theirname:hover{
+	cursor: pointer;
+  text-decoration: underline;
+}
+.them{
+  margin-left: 5%;
+  text-align: left;
+  margin-right: 40%;
+  border-radius: 10px;
+  width: fit-content;
+  height: fit-content;
+  background-size: contain;
+  background-color:#202022;
+  margin-top: 10px;
+}
+.bubble, .mybubble{
+  
+  color: white;
+ 
+  
+}
+
+.mybubble{
+  background-color:#2ebf2e;
+  padding: 7px;
+    border-radius: 20px;
+}
+
+.me{
+ 
+  text-align:right;
+  margin-right: 5%;
+   margin-top: 30px;
+    margin-left: 40%;
+  display: block;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,41 @@
+.link{
+	
+	border-style: solid;
+	border-color: black;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-color: black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	transition: 0.2s;
+	border-width: 2px;
+
+}
+.link:hover{
+
+	 transform: scale(1.02); 
+
+}
+.name{
+
+	font-size: 2rem;
+	text-decoration: none;
+	color: #60b2ff;
+	width : 100%;
+  overflow:hidden;
+  display:inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.text{
+	margin-left: 2%;
+}
+
+@media only screen and (max-width: 600px) {
+
+.name{
+	font-size: 1rem;
+}
+}

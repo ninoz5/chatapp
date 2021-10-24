@@ -1,0 +1,44 @@
+.back,.settings{
+	
+	margin-top: 1%;
+	border: none;
+	color: #60b2ff;
+	background: none;
+  font-size: 1.5rem;
+
+}
+.back:hover, .settings:hover{
+  color: yellow;
+}
+
+.header{
+   display: block;
+  border-bottom-style:solid ;
+  border-color: #242121;
+  font-weight: bold;
+  font-size:2.5rem;
+  text-align:center;
+   height: 6vh;
+  font-size: 4vh;
+  color: #60b2ff;
+  background-color: #242121;
+}
+
+.settings{
+  float: right;
+  margin-right: 2%;
+   font-size: 3vh;
+}
+
+.back{
+  float: left;
+  margin-left: 2%;
+  font-size: 3vh;
+
+}
+@media only screen and (max-width:580px) {
+  .back,.settings{
+  
+  margin-top: 2%;
+}
+}

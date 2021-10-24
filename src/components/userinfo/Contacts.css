@@ -1,0 +1,49 @@
+.contact{
+	font-size: 2rem;
+	text-decoration: none;
+	color: #60b2ff;
+}
+.contactspace{
+	width: 100%;
+	border-style: solid;
+	border-color: grey;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	margin-bottom: 20px;
+}
+.contactspace:hover{
+	background-color: grey;
+}
+.X{
+	float: right;
+	background: none;
+	border: none;
+	font-size: xx-large;;
+}
+.X:hover{
+	color: darkred;
+}
+
+.addpeople{
+	background-color: #60b2ff;
+	color: white;
+	border-radius: 10px;
+	padding: 1vh;
+	font-size: 1.5rem;
+	border-color: white;
+
+}
+.contactName{
+	width: 70%;
+	text-decoration: none;
+}
+.contacts{
+	height: 85vh;
+	overflow:auto;
+}
+.addpeoplelink{
+	display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
